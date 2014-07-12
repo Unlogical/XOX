@@ -28,17 +28,13 @@ nav{
   height: 100%;
   text-align: right;
   font-size: 2.2em;
-  padding-top: 10px;
+  padding-top: 15px;
 }
 
 nav a{
   text-decoration: none;
   color: #000;
-}
-
-.group{
   padding-left: 20px;
-  padding-right: 20px;
 }
 
 nav i {
