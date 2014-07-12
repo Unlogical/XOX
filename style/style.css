@@ -34,12 +34,21 @@ nav{
 nav a{
   text-decoration: none;
   color: #000;
+}
+
+nav > ul{
+  list-style: none;
+}
+
+nav > ul > li{
+  display: inline;
   padding-left: 20px;
 }
 
-nav i {
-
+nav > ul > li > ul{
+  display: none;
 }
+
 
 .board{
   width: 1000px;
