@@ -92,14 +92,23 @@ nav ul li:hover>a {
 
 .board{
   width: 1000px;
-  height: 500px;
-
-  position: absolute;
   top: 0;
   left: 0;
   right:0;
   bottom: 0;
   margin: auto;
-
+  margin-top: 5%;
+  margin-bottom: 5%;
   background: #eee;
+}
+
+.board > table{
+
+}
+
+.board > table td{
+	border-collapse: collapse; 
+	width: 40px;
+   height: 40px;
+	border: 1px solid #aaa;
 }
